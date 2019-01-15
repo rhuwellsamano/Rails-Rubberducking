@@ -1,0 +1,5 @@
+<h1><%= @student.name %></h1>
+<h2><%= "MOD #{@student.mod}" %></h2>
+
+<%= link_to "Edit Student", edit_student_path(@student) %> <br>
+<%= link_to "Back To All Students", students_path %>
